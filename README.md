@@ -4,12 +4,12 @@
 
 ## VQE pro zemní stavy molekul
 
-Toto repo implementuje **Variational Quantum Eigensolver (VQE)** pro výpočet zemních stavů molekul pomocí knihovny Qiskit. VQE je hybridní kvantově-klasický algoritmus optimalizující očekávanou hodnotu Hamiltoniánu molekuly.
+Toto repozitář implementuje **Variational Quantum Eigensolver (VQE)** pro výpočet zemních stavů molekul pomocí knihovny Qiskit. VQE je hybridní kvantově-klasický algoritmus optimalizující očekávanou hodnotu Hamiltoniánu molekuly.
 
 ### Funkce
-- Výpočet Hamiltoniánu molekul (H2, LiH, atd.)
-- Ansatz UCCSD (Unitary Coupled Cluster Singles and Doubles)
-- Optimalizace pomocí klasických optimalizátorů (SPSA, COBYLA)
+- Výpočet Hamiltoniánu molekul (H2, LiH, N2)
+- Ansatz efficient_su2 (efektivní na kvantovém hardwaru)
+- Optimalizace pomocí klasických optimalizátorů (COBYLA)
 - Simulace na klasickém hardware i Qiskit Aer
 
 ### Požadavky
@@ -29,9 +29,9 @@ Repo obsahuje grafy konvergence energie a srovnání s klasickými metodami (HF,
 This repository implements the **Variational Quantum Eigensolver (VQE)** to compute ground states of molecules using Qiskit. VQE is a hybrid quantum-classical algorithm that variationally minimizes the expectation value of the molecular Hamiltonian.
 
 ### Features
-- Molecular Hamiltonian computation (H2, LiH, etc.)
-- UCCSD ansatz (Unitary Coupled Cluster Singles and Doubles)
-- Classical optimization (SPSA, COBYLA)
+- Molecular Hamiltonian computation (H2, LiH, N2)
+- efficient_su2 (hardware efficient ansatz)
+- Classical optimization (COBYLA)
 - Simulation on classical hardware and Qiskit Aer
 
 ### Requirements
