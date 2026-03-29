@@ -12,9 +12,15 @@ Toto repozitář implementuje **Variational Quantum Eigensolver (VQE)** pro výp
 - Optimalizace pomocí klasických optimalizátorů (COBYLA)
 - Simulace na klasickém hardware i Qiskit Aer
 
-### Požadavky
+### Instalace
 ```bash
-pip install qiskit qiskit-nature qiskit-algorithms pyscf matplotlib numpy
+# 1. Vytvoř virtuální prostředí (doporučeno)
+python -m venv vqe_env
+source vqe_env/bin/activate  # Linux/Mac
+# vqe_env\Scripts\activate    # Windows
+
+# 2. Nainstaluj závislosti
+pip install -r requirements.txt
 ```
 
 ### Příklady výstupů
@@ -34,9 +40,15 @@ This repository implements the **Variational Quantum Eigensolver (VQE)** to comp
 - Classical optimization (COBYLA)
 - Simulation on classical hardware and Qiskit Aer
 
-### Requirements
+### Installation
 ```bash
-pip install qiskit qiskit-nature qiskit-algorithms pyscf matplotlib numpy
+# 1. Create virtual environment (recommended)
+python -m venv vqe_env
+source vqe_env/bin/activate  # Linux/Mac
+# vqe_env\Scripts\activate    # Windows
+
+# 2. Install dependencies
+pip install -r requirements.txt
 ```
 
 ### Example Outputs
