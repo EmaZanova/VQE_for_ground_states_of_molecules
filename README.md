@@ -6,6 +6,10 @@
 
 Toto repozitář implementuje **Variational Quantum Eigensolver (VQE)** pro výpočet zemních stavů molekul pomocí knihovny Qiskit. VQE je hybridní kvantově-klasický algoritmus optimalizující očekávanou hodnotu Hamiltoniánu molekuly.
 
+### 📚 Hlavní inspirace
+Tento kód vychází z oficiálního IBM Qiskit tutoriálu:  
+[Spin Chain VQE Tutorial](https://quantum.cloud.ibm.com/docs/en/tutorials/spin-chain-vqe)[web:1]
+
 ### Funkce
 - Výpočet Hamiltoniánu molekul (H2, LiH, N2)
 - Ansatz efficient_su2 (efektivní na kvantovém hardwaru)
@@ -33,6 +37,10 @@ Repo obsahuje grafy konvergence energie a srovnání s klasickými metodami (HF,
 ## VQE for Ground States of Molecules
 
 This repository implements the **Variational Quantum Eigensolver (VQE)** to compute ground states of molecules using Qiskit. VQE is a hybrid quantum-classical algorithm that variationally minimizes the expectation value of the molecular Hamiltonian.
+
+## 📚 Main Reference
+This code is based on official IBM Qiskit tutorial:  
+[Spin Chain VQE Tutorial](https://quantum.cloud.ibm.com/docs/en/tutorials/spin-chain-vqe)[web:1]
 
 ### Features
 - Molecular Hamiltonian computation (H2, LiH, N2)
