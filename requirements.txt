@@ -1,0 +1,19 @@
+# requirements.txt - VQE for molecular ground states
+# Tested with Python 3.10+ (March 2026)
+
+qiskit==2.2.3
+qiskit-nature==0.7.2
+qiskit-algorithms==0.4.0
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.43.1
+
+pyscf==2.11.0
+numpy==2.3.4
+scipy==1.16.3
+pandas==3.0.1
+
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# Pro IBM Quantum hardware
+qiskit-ibm-provider==0.7.0
